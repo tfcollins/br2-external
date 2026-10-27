@@ -1,0 +1,8 @@
+config BR2_PACKAGE_IIO_VRT49
+	bool "iio-vrt49"
+	select BR2_PACKAGE_LIBIIO
+	help
+	  Software-only VITA 49.2 (VRT) daemon and protocol stack for IIO.
+	  Provides the iiod-vrt49 daemon for VRT49 control and streaming over UDP.
+
+	  https://github.com/tfcollins/vrt49

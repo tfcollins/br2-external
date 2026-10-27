@@ -1,0 +1,5 @@
+# /etc/default/iiod-vrt49
+# Options passed to iiod-vrt49 daemon
+# -u local: connects directly to local Linux IIO devices
+# -V 0.0.0.0:9499 binds UDP control socket
+IIOD_VRT49_OPTS="-u local: -V 0.0.0.0:9499"
